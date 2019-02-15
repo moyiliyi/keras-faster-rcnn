@@ -107,6 +107,8 @@ if C.network == 'resnet50':
 	num_features = 1024
 elif C.network == 'vgg':
 	num_features = 512
+elif C.network == 'resnet101':
+	num_features = 1024
 
 if K.image_dim_ordering() == 'th':
 	input_shape_img = (3, None, None)
