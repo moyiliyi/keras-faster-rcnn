@@ -1,6 +1,6 @@
-# This repo is now deprecated. Instead, use https://github.com/fizyr/keras-retinanet. Keras-retinanet is more accurate, has higher quality code and runs faster.
+Cloned from https://github.com/yhenon/keras-frcnn
 
-Also checkout my pytorch retinanet implementation at https://github.com/yhenon/pytorch-retinanet
+Added resnet101 support
 
 
 # keras-frcnn
