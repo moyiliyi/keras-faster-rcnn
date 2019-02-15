@@ -6,11 +6,6 @@ Added resnet101 support
 # keras-frcnn
 Keras implementation of Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
 
-CURRENT STATUS:
-- frcnn is implemented except for the regression layer for the classifier
-- only resnet50 architecture is currently supported
-- weights for theano backend coming shortly
-
 USAGE:
 - train_frcnn.py can be used to train a model. To train on Pascal VOC data, simply do:
 python train_frcnn.py /path/to/pascalvoc/data/
