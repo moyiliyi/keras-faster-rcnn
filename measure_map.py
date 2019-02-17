@@ -6,7 +6,6 @@ import pickle
 from optparse import OptionParser
 import time
 from keras_frcnn import config
-import keras_frcnn.resnet as nn
 from keras import backend as K
 from keras.layers import Input
 from keras.models import Model
@@ -109,6 +108,13 @@ with open(config_output_filename, 'r') as f_in:
 C.use_horizontal_flips = False
 C.use_vertical_flips = False
 C.rot_90 = False
+
+if C.network == 'resnet50':
+	import keras_frcnn.resnet as nn
+elif C.network == 'vgg':
+	import keras_frcnn.vgg as nn
+elif C.network == 'resnet101':
+	import keras_frcnn.resnet101 as nn
 
 img_path = options.test_path
 
