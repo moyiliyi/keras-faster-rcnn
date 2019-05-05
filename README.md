@@ -1,6 +1,6 @@
 Cloned from https://github.com/yhenon/keras-frcnn
 
-Added resnet101 support
+Added resnet101 support.
 
 
 # keras-frcnn
@@ -32,3 +32,6 @@ Example output:
 ![ex2](http://i.imgur.com/Szf78o2.jpg)
 ![ex3](http://i.imgur.com/OjVXTbn.jpg)
 ![ex4](http://i.imgur.com/9Fbe2Ow.jpg)
+
+# Useful Links
+A report of this code from zhihu: https://zhuanlan.zhihu.com/p/28585873
